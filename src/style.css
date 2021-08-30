@@ -1,0 +1,67 @@
+#DICODE{
+    width: 10%;
+    height: 10%;
+       }
+body{
+    margin: 5px 5px 5px 5px;
+    padding: 50px;
+    background: url(Imagenes/fondoAzul.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    }
+h1 {
+
+    font-size: 55px;
+    color: darkorange;
+
+   }   
+
+section{
+
+    margin: 50px;
+    text-align: justify;
+   }
+
+#cifrar{
+
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    background-color: hsl(200, 72%, 62%);
+    border-radius: 10px;
+    border: 2px solid rgb(1, 83, 177);
+    cursor: pointer;
+  }
+
+#cifrar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+#descifrar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    background-color: hsl(200, 72%, 62%);
+    border-radius: 10px;
+    border: 2px solid rgb(1, 83, 177);
+    cursor: pointer;
+   }
+#descifrar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+   }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+   }
