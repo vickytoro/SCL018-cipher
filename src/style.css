@@ -1,0 +1,60 @@
+
+#DICODE{
+    width:15%;
+    height:15%;
+}
+.imagen1 { text-align: center; }
+div      { text-align: center; }
+
+
+#orange1{
+  color: #F99034;
+  font-size: 40px;
+  font-family: Tahoma;
+  text-align: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(imagenes/fondoAzul.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+  }
+  #orange2{
+    color: #F99034;
+    font-size: 15px
+    font-family: Tahoma;
+    text-align: justify;
+    margin: 100px 30px 20px 30px;
+
+  }  
+
+  #orange3{
+    color: #F99034;
+    font-size: 15px
+    font-family: Tahoma;
+    text-align: justify;
+    margin: 50px 30px 100px 30px;
+  }
+
+  button{
+    background-color: #0089e4;
+    color:#ffffff;
+
+  }
+  button:hover{
+    background-color:#f99034;
+
+  }
+  button:active{
+    background-color:#757571f3;
+  }
+  
+    
+footer{
+        margin-top: 50px;
+        color: rgb(0, 0, 0);
+        
+      }
