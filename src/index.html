@@ -8,6 +8,12 @@
   <body>
     <div id="root">
       <header><img src="Imagenes/logofinalnaranjo2.png" id="DICODE"></header>
+      
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+      </nav>
 
       <h1>Codificador y Decodificador de Diagnósticos Médicos</h1>
 
@@ -17,17 +23,25 @@
         diagnósticos críticos o de acuerdo a tus necesidades, con el fin de resguardar tu seguridad y la
         confidencialidad de la información.</p></section>
 
-      <p>A continuación seleccione la opción deseada:</p>
+      <button id="continuar" onclick='mostrar();'>Continuar</button>
+       
+      <!--Desde acá inicia la página oculta -->
 
-      <main>
-      <button id=cifrar onclick="location.href='pagina2.html'">Continuar</button>
-      </main>
+      <div id="pagina2" >
+        <p>Primero debe escoger su número secreto</p>
+      <div>
+        <input type ="number" min="0" max="100">
+      </div>
+        <p>Diagnóstico sin Codificar</p>
+        <textarea id="boxText1" rows="4" cols="70"></textarea>
+        <p>Diagnóstico Codificado</p>
+        <textarea id="boxText2" rows="4" cols="70"></textarea>
+      </div>
 
-      <footer>Todos los derechos de DICODE son de carácter reservados </footer>
-
+      <!--Acá termina la página oculta -->
+      
+      <footer>Todos los derechos de DICODE son de carácter reservados.Para más información síguenos en nuestras redes sociales.</footer>
     </div>
     <script src="index.js" type="module"></script>
-    </script>
-
   </body>
 </html>

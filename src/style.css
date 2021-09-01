@@ -26,7 +26,7 @@ section{
     text-align: justify;
    }
 
-#cifrar{
+#continuar{
 
     text-decoration: none;
     padding: 10px;
@@ -37,31 +37,38 @@ section{
     border-radius: 10px;
     border: 2px solid rgb(1, 83, 177);
     cursor: pointer;
-  }
+    }
 
-#cifrar:hover{
+#continuar:hover{
     color: #1883ba;
     background-color: #ffffff;
-  }
-#descifrar{
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    color: rgb(255, 254, 254);
-    background-color: hsl(200, 72%, 62%);
+    }
+
+div input {
+   
     border-radius: 10px;
-    border: 2px solid rgb(1, 83, 177);
-    cursor: pointer;
+    border: 3px solid rgb(1, 83, 177);
+    }
+
+#boxText1 {
+
+   width: 500px;
+   height: 100px;
+   border-radius: 10px;
+   border: 3px solid rgb(1, 83, 177);
    }
-#descifrar:hover{
-    color: #1883ba;
-    background-color: #ffffff;
-   }
+
+#boxText2 {
+    
+   width: 500px;
+   height: 100px;
+   border-radius: 10px;
+   border: 3px solid rgb(1, 83, 177);
+    }
 
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 40px;
-   }
+    }
