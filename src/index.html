@@ -7,7 +7,40 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <header><img src="Imagenes/logofinalnaranjo2.png" id="DICODE"></header>
+      
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+      </nav>
+
+      <h1>Codificador y Decodificador de Diagnósticos Médicos</h1>
+
+      <section><p><b>Consideraciones</b><br>
+        Estimado Usuario: Los resultados entregados a través de este
+        servicio de encriptación corresponden <i>exclusivamente</i> a exámenes imagenológicos con
+        diagnósticos críticos o de acuerdo a tus necesidades, con el fin de resguardar tu seguridad y la
+        confidencialidad de la información.</p></section>
+
+      <button id="continuar" onclick='mostrar();'>Continuar</button>
+       
+      <!--Desde acá inicia la página oculta -->
+
+      <div id="pagina2" >
+        <p>Primero debe escoger su número secreto</p>
+      <div>
+        <input type ="number" min="0" max="100">
+      </div>
+        <p>Diagnóstico sin Codificar</p>
+        <textarea id="boxText1" rows="4" cols="70"></textarea>
+        <p>Diagnóstico Codificado</p>
+        <textarea id="boxText2" rows="4" cols="70"></textarea>
+      </div>
+
+      <!--Acá termina la página oculta -->
+      
+      <footer>Todos los derechos de DICODE son de carácter reservados.Para más información síguenos en nuestras redes sociales.</footer>
     </div>
     <script src="index.js" type="module"></script>
   </body>
