@@ -2,18 +2,11 @@ const cipher = {
 
     codificar: function(mensaje1,desplazamiento) {
 
-    let mensCodif = "";
+      mensaje1.charCodeAt(0);
 
-    for(i=0; i<mensaje1.lenght; i++) {
+      console.log("función codificar");
 
-        let numSecret = (mensaje1.charCodeAt(i) - 65 + desplazamiento)%26 +65;
-        let mensScret = String.fromCharCode(numSecret);
-        mensCodif = numSecret + mensScret;
-
-        }
-
-      console.log(mensCodif);
-      return mensCodif;
+      return "PROBANDO1";
 
     },
   
