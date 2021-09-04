@@ -22,23 +22,28 @@
         servicio de encriptación corresponden <i>exclusivamente</i> a exámenes imagenológicos con
         diagnósticos críticos o de acuerdo a tus necesidades, con el fin de resguardar tu seguridad y la
         confidencialidad de la información.</p></section>
-
-      <button id="continuar" onclick='mostrar();'>Continuar</button>
        
-      <!--Desde acá inicia la página oculta -->
+      <!--Desde acá inicia el codeo en JavaScript -->
 
-      <div id="pagina2" >
+      <div>
         <p>Primero debe escoger su número secreto</p>
       <div>
-        <input type ="number" min="0" max="100">
+
+        <input type ="number" id = "offset" min="0" max="100">
+
       </div>
-        <p>Diagnóstico sin Codificar</p>
-        <textarea id="boxText1" rows="4" cols="70"></textarea>
-        <p>Diagnóstico Codificado</p>
+        <br>
+        <button id="cifrar" class="boton1">Cifrar</button>
+        <button id="descifrar" class="boton2">Descifrar</button>
+
+        <p>Diagnóstico escrito inicialmente</p>
+        <textarea id="boxText1" rows="4" cols="70">hola</textarea>
+        <p>Diagnóstico cifrado o descifrado</p>
         <textarea id="boxText2" rows="4" cols="70"></textarea>
+        
       </div>
 
-      <!--Acá termina la página oculta -->
+      <!--Acá termina el codeo en JavaScript -->
       
       <footer>Todos los derechos de DICODE son de carácter reservados.Para más información síguenos en nuestras redes sociales.</footer>
     </div>
