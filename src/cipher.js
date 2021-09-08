@@ -1,6 +1,7 @@
 const cipher = {
 
     codificar: function(mensaje1,desplazamiento) {
+
     //console.log(mensaje1,desplazamiento);
     let mensEncod = "";
 
@@ -17,6 +18,7 @@ const cipher = {
         }
       return mensEncod;
       },
+
   
     decodificar: function(mensaje1,desplazamiento){
 
