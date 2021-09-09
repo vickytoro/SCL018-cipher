@@ -51,7 +51,7 @@ A continuación, se mostrará el HTML semántico realizado por nosotras.
 
 A continuación, se mostrará el CSS realizado por nosotras.
 
-  * [CSS](https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection)
+  * [CSS terminado](https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection)
 
 ### JavaScript
 
