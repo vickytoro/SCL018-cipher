@@ -68,7 +68,7 @@ div input {
     border: 3px solid rgb(1, 83, 177);
     }
 
-#boxText1 {
+.textBox1 {
 
    width: 500px;
    height: 100px;
@@ -76,7 +76,7 @@ div input {
    border: 3px solid rgb(1, 83, 177);
    }
 
-#boxText2 {
+.textBox2 {
     
    width: 500px;
    height: 100px;

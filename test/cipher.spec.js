@@ -29,6 +29,14 @@ describe('cipher', () => {
       expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
 
+    it('should return "Ñ" for "Ñ" with offset 33', () => {
+      expect(cipher.encode(33, 'Ñ')).toBe('Ñ');
+    });
+
+    it('should return "." for "." with offset 33', () => {
+      expect(cipher.encode(33, '.')).toBe('.');
+    });
+
     // Hacker edition
     //
     // [Español]
@@ -75,6 +83,13 @@ describe('cipher', () => {
       expect(cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG')).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
     });
 
+    it('should return "Ñ" for "Ñ" with offset 33', () => {
+      expect(cipher.decode(33, 'Ñ')).toBe('Ñ');
+    });
+
+    it('should return "." for "." with offset 33', () => {
+      expect(cipher.encode(33, '.')).toBe('.');
+    });
     //
     // Hacker edition
     //

@@ -1,42 +1,64 @@
 const cipher = {
 
-    codificar: function(mensaje1,desplazamiento) {
-    //console.log(mensaje1,desplazamiento);
+    encode: function(desplazamiento,message1) {
     let mensEncod = "";
 
-    for(let i=0; i<mensaje1.length; i++) {
+      if(message1.length===0){
+
+        return null;
+      }
+
+      for(let i=0; i<message1.length; i++) {
       
-        let numAcsii = mensaje1.charCodeAt(i); //letras transformadas a código Ascii
-        
-        //console.log("numAcsii: " + numAcsii);
-        //console.log(desplazamiento);
-        let newPosition = (numAcsii - 65 + desplazamiento)%26 + 65; //posición de las nuevas letras ya codificadas
-        //console.log("nueva posición: "+ nuevPosicion);
-        mensEncod += String.fromCharCode(newPosition);
-        //console.log(mensCodif);
+        let numAcsii = message1.charCodeAt(i);
+        if(numAcsii>=65 && numAcsii<=90){
+          let newPosition = (numAcsii - 65 + desplazamiento)%26 + 65; //posición de las nuevas letras ya codificadas
+          mensEncod += String.fromCharCode(newPosition);
         }
-      return mensEncod;
-      },
-  
-    decodificar: function(mensaje1,desplazamiento){
+
+        else if (numAcsii===209){
+          mensEncod += String.fromCharCode(numAcsii);
+        }
+
+        else {
+          mensEncod += String.fromCharCode(numAcsii);
+        }
+        }
+        return mensEncod;
+        },
+
+  decode: function(desplazamiento,message1){
 
         let mensDecod = "";
-        
-      for(let i=0; i<mensaje1.length; i++) {
-          
-        let numAcsii = mensaje1.charCodeAt(i); //letras transformadas a código Ascii
-        //console.log("numAcsii: " + numAcsii);
-        //console.log(-desplazamiento + 0);
-        let parenthesis = numAcsii-65-desplazamiento;
+    
+        if(message1.length===0){
 
-        while(parenthesis<0){//while que obliga a que el valor del () sea siempre positivo
+          return null;
+        }
+        
+    for(let i=0; i<message1.length; i++) {
+          
+        let numAcsii = message1.charCodeAt(i); 
+        if(numAcsii>=65 && numAcsii<=90){
+          
+          let parenthesis = numAcsii-65-desplazamiento;
+
+        while(parenthesis<0){
         parenthesis=parenthesis+26;
             }
-        let newPosition = parenthesis%26 + 65; //posición de las nuevas letras ya codificadas
-        //console.log("nueva posición: "+ newPosition);
+        let newPosition = parenthesis%26 + 65; 
         mensDecod += String.fromCharCode(newPosition);
-        //console.log(mensCodif);
-          }
+        }
+        else if (numAcsii===209){
+
+          mensDecod += String.fromCharCode(numAcsii);
+        }
+
+        else{
+          mensDecod += String.fromCharCode(numAcsii);
+        }
+        
+        }
       return mensDecod;
       }
 };
