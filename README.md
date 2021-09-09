@@ -29,7 +29,7 @@ Al comienzo, se pensó en que la págna web tendría 3 páginas en total, una pr
   * [Diseño Inicial Página 1](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
   * [Diseño Inicial Página 2](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
   * [Diseño Inicial Página 3](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Diseño Inicial en papel](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
+  * [Diseño Inicial en papel y lápiz](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
 
 
 Posteriormente, se eliminaron dos páginas, quedando solo una principal que cifra y descifra los mensajes. 
