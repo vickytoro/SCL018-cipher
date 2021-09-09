@@ -12,7 +12,7 @@ import cipher from './cipher.js';
         document.getElementById("boxText2").value = cipher.encode(desplazamiento,message1.toUpperCase());
         }
     });
-    
+
     document.getElementById("descifrar").addEventListener("click", function(){
 
     let message1 = document.getElementById("boxText1").value;
