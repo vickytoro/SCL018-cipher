@@ -26,36 +26,36 @@ A continuación, se mostrará el diseño inicial que tuvo esta página Web, el c
 
 Al comienzo, se pensó en que la págna web tendría 3 páginas en total, una principal y dos extras que cifraban y descifraban el mensaje. 
 
-  * [Diseño Inicial Página 1](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/prototipo1.jpg)
-  * [Diseño Inicial Página 2](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/pagina2.jpg)
-  * [Diseño Inicial Página 3](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/pagina3.jpg)
-  * [Diseño Inicial en papel y lápiz](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/prototipo%20a%20mano.jpg)
+  * [Diseño Inicial Página 1]![](\maquetaproyecto\prototipo1.jpg)
+  * [Diseño Inicial Página 2]![](\maquetaproyecto\pagina2.jpg)
+  * [Diseño Inicial Página 3]![](\maquetaproyecto\pagina3.jpg)
+  * [Diseño Inicial en papel y lápiz]![](\maquetaproyecto\prototipoamano.jpg)
 
 
 Posteriormente, se eliminaron dos páginas, quedando solo una principal que cifra y descifra los mensajes. 
 
-  * [Diseño Modificado 1](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/prototipofinal.jpeg)
+  * [Diseño Modificado 1]![](\maquetaproyecto\prototipofinal.jpg)
 
 El logotipo también se modifico de  su prototipo inicial, aquí están sus cambios.
 
-  * [Logotipo 1](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/cambioslogos.jpg)
+  * [Logotipo 1]![](\maquetaproyecto\cambioslogos.jpg)
 
 
 ### HTML Semántico
 
 A continuación, se mostrará el HTML semántico realizado por nosotras. 
 
-  * [HTML semántico](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/index.html.jpg)
+  * [HTML semántico]![](\maquetaproyecto\index.html.jpg)
 
 ### CSS 
 
 A continuación, se mostrará el CSS realizado por nosotras.
 
-  * [CSS terminado](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/css.jpg)
+  * [CSS terminado]![](\maquetaproyecto\css.jpg)
 
 ### JavaScript
 
 A continuación, se mostrará el JavaScript realizado por nosotras.
 
-  * [JavaScript](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/cipher.js.jpg)
+  * [JavaScript]![](\maquetaproyecto\cipher.js.jpg)
 
