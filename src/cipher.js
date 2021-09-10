@@ -42,7 +42,7 @@ const cipher = {
           let parenthesis = numAcsii-65-desplazamiento;
 
         while(parenthesis<0){
-        parenthesis=parenthesis+26;
+        parenthesis=parenthesis%26 +26;
             }
         let newPosition = parenthesis%26 + 65; 
         mensDecod += String.fromCharCode(newPosition);
