@@ -26,36 +26,36 @@ A continuación, se mostrará el diseño inicial que tuvo esta página Web, el c
 
 Al comienzo, se pensó en que la págna web tendría 3 páginas en total, una principal y dos extras que cifraban y descifraban el mensaje. 
 
-  * [Diseño Inicial Página 1](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Diseño Inicial Página 2](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Diseño Inicial Página 3](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Diseño Inicial en papel y lápiz](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
+  * [Diseño Inicial Página 1](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/prototipo1.jpg)
+  * [Diseño Inicial Página 2](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/pagina2.jpg)
+  * [Diseño Inicial Página 3](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/pagina3.jpg)
+  * [Diseño Inicial en papel y lápiz](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/prototipo%20a%20mano.jpg)
 
 
 Posteriormente, se eliminaron dos páginas, quedando solo una principal que cifra y descifra los mensajes. 
 
-  * [Diseño Modificado 1](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
+  * [Diseño Modificado 1](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/prototipofinal.jpeg)
 
 El logotipo también se modifico de  su prototipo inicial, aquí están sus cambios.
 
-  * [Logotipo 1](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Logotipo 2](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
+  * [Logotipo 1](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/cambioslogos.jpg)
+
 
 ### HTML Semántico
 
 A continuación, se mostrará el HTML semántico realizado por nosotras. 
 
-  * [HTML semántico](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
+  * [HTML semántico](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/index.html.jpg)
 
 ### CSS 
 
 A continuación, se mostrará el CSS realizado por nosotras.
 
-  * [CSS terminado](https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection)
+  * [CSS terminado](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/css.jpg)
 
 ### JavaScript
 
 A continuación, se mostrará el JavaScript realizado por nosotras.
 
-  * [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
+  * [JavaScript](https://github.com/vickytoro/SCL018-cipher/blob/main/maquetaproyecto/cipher.js.jpg)
 
