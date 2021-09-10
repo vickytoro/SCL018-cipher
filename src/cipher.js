@@ -1,12 +1,11 @@
 const cipher = {
 
     encode: function(desplazamiento,message1) {
+      if (desplazamiento === null || desplazamiento === 0 ) {
+        throw new TypeError();
+        }
+
     let mensEncod = "";
-
-      if(message1.length===0){
-
-        return null;
-      }
 
       for(let i=0; i<message1.length; i++) {
       
@@ -29,12 +28,11 @@ const cipher = {
 
   decode: function(desplazamiento,message1){
 
-        let mensDecod = "";
-    
-        if(message1.length===0){
+    if (desplazamiento === null || desplazamiento === 0 ) {
+      throw new TypeError();
+      }
 
-          return null;
-        }
+        let mensDecod = "";
         
     for(let i=0; i<message1.length; i++) {
           
