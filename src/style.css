@@ -1,7 +1,7 @@
 #DICODE{
     width: 10%;
     height: 10%;
-       }
+    }
 body{
     margin: 5px 5px 5px 5px;
     padding: 50px;
@@ -18,13 +18,13 @@ h1 {
     font-size: 55px;
     color: darkorange;
 
-   }   
+}   
 
 section{
 
     margin: 50px;
     text-align: justify;
-   }
+}
 
 .boton1{
 
@@ -63,25 +63,24 @@ section{
     }
 
 div input {
-   
     border-radius: 10px;
     border: 3px solid rgb(1, 83, 177);
     }
 
 .textBox1 {
 
-   width: 500px;
-   height: 100px;
-   border-radius: 10px;
-   border: 3px solid rgb(1, 83, 177);
-   }
+width: 500px;
+height: 100px;
+border-radius: 10px;
+border: 3px solid rgb(1, 83, 177);
+}
 
 .textBox2 {
     
-   width: 500px;
-   height: 100px;
-   border-radius: 10px;
-   border: 3px solid rgb(1, 83, 177);
+width: 500px;
+height: 100px;
+border-radius: 10px;
+border: 3px solid rgb(1, 83, 177);
     }
 
 footer {
